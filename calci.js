@@ -11,7 +11,7 @@ form.addEventListener('submit',function(event){
         var y = parseFloat(secondnum.value);
         var result =x/y;
         var percent = result * 100;
-        resultfield.innerText = "Answer" + percent + "%";
+        resultfield.innerText = "Answer: " + percent + "%";
         event.preventDefault();
     }
 });
